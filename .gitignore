@@ -1,0 +1,41 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# Run-time results / logs (kept local; users can override via TNSBENCH_RESULTS_DIR)
+results/
+!results/.gitkeep
+*.log
+*.jsonl.tmp
+
+# Local PIDs / caches
+.pids
+.caffeinate_pid

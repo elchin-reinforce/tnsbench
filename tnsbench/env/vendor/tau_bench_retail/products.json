@@ -1,0 +1,1054 @@
+[
+  {
+    "name": "Mechanical Keyboard",
+    "product_id": "2798860956",
+    "category": "electronics",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Mechanical Keyboard \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "9772308950": {
+        "item_id": "9772308950",
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "available": true,
+        "price": 159.99
+      },
+      "1919918133": {
+        "item_id": "1919918133",
+        "options": {
+          "switch": "clicky",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "available": true,
+        "price": 167.99
+      },
+      "4392186344": {
+        "item_id": "4392186344",
+        "options": {
+          "switch": "tactile",
+          "backlight": "none",
+          "size": "TKL"
+        },
+        "available": true,
+        "price": 175.99
+      },
+      "7877983583": {
+        "item_id": "7877983583",
+        "options": {
+          "switch": "clicky",
+          "backlight": "none",
+          "size": "60%"
+        },
+        "available": true,
+        "price": 183.99
+      }
+    }
+  },
+  {
+    "name": "Smart Thermostat",
+    "product_id": "1763442071",
+    "category": "home",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 730,
+    "description": "Smart Thermostat \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "9858935302": {
+        "item_id": "9858935302",
+        "options": {
+          "compatibility": "Apple HomeKit",
+          "color": "white"
+        },
+        "available": true,
+        "price": 219.0
+      },
+      "2484990683": {
+        "item_id": "2484990683",
+        "options": {
+          "compatibility": "Google Home",
+          "color": "white"
+        },
+        "available": true,
+        "price": 229.95
+      },
+      "7998274381": {
+        "item_id": "7998274381",
+        "options": {
+          "compatibility": "Amazon Alexa",
+          "color": "black"
+        },
+        "available": true,
+        "price": 240.9
+      },
+      "8430869082": {
+        "item_id": "8430869082",
+        "options": {
+          "compatibility": "Matter",
+          "color": "black"
+        },
+        "available": true,
+        "price": 251.85
+      }
+    }
+  },
+  {
+    "name": "Wireless Headphones",
+    "product_id": "1388496661",
+    "category": "electronics",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Wireless Headphones \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "1903755256": {
+        "item_id": "1903755256",
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 189.0
+      },
+      "2443717290": {
+        "item_id": "2443717290",
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "silver"
+        },
+        "available": true,
+        "price": 198.45
+      },
+      "9143209514": {
+        "item_id": "9143209514",
+        "options": {
+          "type": "in-ear",
+          "wireless": true,
+          "color": "white"
+        },
+        "available": true,
+        "price": 207.9
+      },
+      "7421848474": {
+        "item_id": "7421848474",
+        "options": {
+          "type": "on-ear",
+          "wireless": true,
+          "color": "navy"
+        },
+        "available": true,
+        "price": 217.35
+      }
+    }
+  },
+  {
+    "name": "Smart Watch",
+    "product_id": "4469428076",
+    "category": "electronics",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Smart Watch \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "3234831726": {
+        "item_id": "3234831726",
+        "options": {
+          "size": "38mm",
+          "band": "leather",
+          "color": "black"
+        },
+        "available": true,
+        "price": 329.0
+      },
+      "1373592755": {
+        "item_id": "1373592755",
+        "options": {
+          "size": "42mm",
+          "band": "metal",
+          "color": "silver"
+        },
+        "available": true,
+        "price": 345.45
+      },
+      "9361925267": {
+        "item_id": "9361925267",
+        "options": {
+          "size": "46mm",
+          "band": "silicone",
+          "color": "navy"
+        },
+        "available": true,
+        "price": 361.9
+      },
+      "8533581218": {
+        "item_id": "8533581218",
+        "options": {
+          "size": "42mm",
+          "band": "silicone",
+          "color": "rose"
+        },
+        "available": true,
+        "price": 378.35
+      }
+    }
+  },
+  {
+    "name": "Office Chair",
+    "product_id": "9732042113",
+    "category": "home",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 730,
+    "description": "Office Chair \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "6117204386": {
+        "item_id": "6117204386",
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 279.0
+      },
+      "9177280792": {
+        "item_id": "9177280792",
+        "options": {
+          "material": "leather",
+          "lumbar": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 292.95
+      },
+      "6480158361": {
+        "item_id": "6480158361",
+        "options": {
+          "material": "mesh",
+          "lumbar": false,
+          "color": "grey"
+        },
+        "available": true,
+        "price": 306.9
+      },
+      "9435371514": {
+        "item_id": "9435371514",
+        "options": {
+          "material": "fabric",
+          "lumbar": true,
+          "color": "navy"
+        },
+        "available": true,
+        "price": 320.85
+      }
+    }
+  },
+  {
+    "name": "Cycling Helmet",
+    "product_id": "4574966214",
+    "category": "outdoor",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Cycling Helmet \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "8170513846": {
+        "item_id": "8170513846",
+        "options": {
+          "size": "small",
+          "ventilation": "high",
+          "color": "black"
+        },
+        "available": true,
+        "price": 129.0
+      },
+      "3231324642": {
+        "item_id": "3231324642",
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "available": true,
+        "price": 135.45
+      },
+      "3765452091": {
+        "item_id": "3765452091",
+        "options": {
+          "size": "large",
+          "ventilation": "low",
+          "color": "white"
+        },
+        "available": true,
+        "price": 141.9
+      },
+      "4616012159": {
+        "item_id": "4616012159",
+        "options": {
+          "size": "medium",
+          "ventilation": "low",
+          "color": "matte black"
+        },
+        "available": true,
+        "price": 148.35
+      }
+    }
+  },
+  {
+    "name": "Water Bottle",
+    "product_id": "5589824249",
+    "category": "outdoor",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 0,
+    "description": "Water Bottle \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "9547150779": {
+        "item_id": "9547150779",
+        "options": {
+          "capacity": "16oz",
+          "material": "steel",
+          "color": "black"
+        },
+        "available": true,
+        "price": 32.0
+      },
+      "7287759523": {
+        "item_id": "7287759523",
+        "options": {
+          "capacity": "24oz",
+          "material": "steel",
+          "color": "ocean"
+        },
+        "available": true,
+        "price": 33.6
+      },
+      "7651806103": {
+        "item_id": "7651806103",
+        "options": {
+          "capacity": "32oz",
+          "material": "steel",
+          "color": "sand"
+        },
+        "available": true,
+        "price": 35.2
+      },
+      "1446052470": {
+        "item_id": "1446052470",
+        "options": {
+          "capacity": "20oz",
+          "material": "glass",
+          "color": "clear"
+        },
+        "available": true,
+        "price": 36.8
+      }
+    }
+  },
+  {
+    "name": "Cotton T-Shirt",
+    "product_id": "9552788534",
+    "category": "apparel",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 0,
+    "description": "Cotton T-Shirt \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "3095314093": {
+        "item_id": "3095314093",
+        "options": {
+          "size": "S",
+          "color": "black",
+          "neck": "crew",
+          "material": "cotton"
+        },
+        "available": true,
+        "price": 29.0
+      },
+      "1539191965": {
+        "item_id": "1539191965",
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "available": true,
+        "price": 30.45
+      },
+      "7394473881": {
+        "item_id": "7394473881",
+        "options": {
+          "size": "L",
+          "color": "navy",
+          "neck": "crew",
+          "material": "cotton"
+        },
+        "available": true,
+        "price": 31.9
+      },
+      "9306555122": {
+        "item_id": "9306555122",
+        "options": {
+          "size": "XL",
+          "color": "olive",
+          "neck": "crew",
+          "material": "cotton"
+        },
+        "available": true,
+        "price": 33.35
+      }
+    }
+  },
+  {
+    "name": "Hiking Boots",
+    "product_id": "1497634200",
+    "category": "outdoor",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Hiking Boots \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "6125283930": {
+        "item_id": "6125283930",
+        "options": {
+          "size": "8",
+          "waterproof": true,
+          "material": "leather"
+        },
+        "available": true,
+        "price": 189.0
+      },
+      "4452736265": {
+        "item_id": "4452736265",
+        "options": {
+          "size": "9",
+          "waterproof": true,
+          "material": "leather"
+        },
+        "available": true,
+        "price": 198.45
+      },
+      "2500637731": {
+        "item_id": "2500637731",
+        "options": {
+          "size": "10",
+          "waterproof": false,
+          "material": "synthetic"
+        },
+        "available": true,
+        "price": 207.9
+      },
+      "3506368463": {
+        "item_id": "3506368463",
+        "options": {
+          "size": "11",
+          "waterproof": true,
+          "material": "leather"
+        },
+        "available": true,
+        "price": 217.35
+      }
+    }
+  },
+  {
+    "name": "Travel Backpack",
+    "product_id": "4986862564",
+    "category": "outdoor",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Travel Backpack \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "3936008912": {
+        "item_id": "3936008912",
+        "options": {
+          "capacity": "20L",
+          "color": "black"
+        },
+        "available": true,
+        "price": 119.0
+      },
+      "4569785521": {
+        "item_id": "4569785521",
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "available": true,
+        "price": 124.95
+      },
+      "2911594591": {
+        "item_id": "2911594591",
+        "options": {
+          "capacity": "45L",
+          "color": "navy"
+        },
+        "available": true,
+        "price": 130.9
+      },
+      "6441085869": {
+        "item_id": "6441085869",
+        "options": {
+          "capacity": "30L",
+          "color": "grey"
+        },
+        "available": true,
+        "price": 136.85
+      }
+    }
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "product_id": "2186377357",
+    "category": "electronics",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Bluetooth Speaker \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "7432837150": {
+        "item_id": "7432837150",
+        "options": {
+          "size": "portable",
+          "water_resistant": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 99.0
+      },
+      "1627004348": {
+        "item_id": "1627004348",
+        "options": {
+          "size": "medium",
+          "water_resistant": true,
+          "color": "blue"
+        },
+        "available": true,
+        "price": 103.95
+      },
+      "1427588401": {
+        "item_id": "1427588401",
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "available": true,
+        "price": 108.9
+      },
+      "6650419246": {
+        "item_id": "6650419246",
+        "options": {
+          "size": "portable",
+          "water_resistant": false,
+          "color": "white"
+        },
+        "available": true,
+        "price": 113.85
+      }
+    }
+  },
+  {
+    "name": "Coffee Maker",
+    "product_id": "7690451293",
+    "category": "kitchen",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Coffee Maker \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "1793167534": {
+        "item_id": "1793167534",
+        "options": {
+          "capacity": "4-cup",
+          "color": "black",
+          "milk_frother": false
+        },
+        "available": true,
+        "price": 159.0
+      },
+      "8451487271": {
+        "item_id": "8451487271",
+        "options": {
+          "capacity": "8-cup",
+          "color": "stainless",
+          "milk_frother": true
+        },
+        "available": true,
+        "price": 166.95
+      },
+      "7949058109": {
+        "item_id": "7949058109",
+        "options": {
+          "capacity": "12-cup",
+          "color": "black",
+          "milk_frother": false
+        },
+        "available": true,
+        "price": 174.9
+      },
+      "7846259959": {
+        "item_id": "7846259959",
+        "options": {
+          "capacity": "8-cup",
+          "color": "white",
+          "milk_frother": true
+        },
+        "available": true,
+        "price": 182.85
+      }
+    }
+  },
+  {
+    "name": "Yoga Mat",
+    "product_id": "7521524975",
+    "category": "fitness",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 0,
+    "description": "Yoga Mat \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "8158303886": {
+        "item_id": "8158303886",
+        "options": {
+          "thickness": "4mm",
+          "color": "purple"
+        },
+        "available": true,
+        "price": 49.0
+      },
+      "8997161966": {
+        "item_id": "8997161966",
+        "options": {
+          "thickness": "6mm",
+          "color": "blue"
+        },
+        "available": true,
+        "price": 51.45
+      },
+      "5224725591": {
+        "item_id": "5224725591",
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "available": true,
+        "price": 53.9
+      },
+      "5652984862": {
+        "item_id": "5652984862",
+        "options": {
+          "thickness": "6mm",
+          "color": "teal"
+        },
+        "available": true,
+        "price": 56.35
+      }
+    }
+  },
+  {
+    "name": "Air Purifier",
+    "product_id": "3482954664",
+    "category": "home",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 730,
+    "description": "Air Purifier \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "3079882293": {
+        "item_id": "3079882293",
+        "options": {
+          "room_size": "small",
+          "hepa": true,
+          "color": "white"
+        },
+        "available": true,
+        "price": 299.0
+      },
+      "9223676778": {
+        "item_id": "9223676778",
+        "options": {
+          "room_size": "medium",
+          "hepa": true,
+          "color": "white"
+        },
+        "available": true,
+        "price": 313.95
+      },
+      "9328683308": {
+        "item_id": "9328683308",
+        "options": {
+          "room_size": "large",
+          "hepa": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 328.9
+      },
+      "1640152245": {
+        "item_id": "1640152245",
+        "options": {
+          "room_size": "small",
+          "hepa": false,
+          "color": "white"
+        },
+        "available": true,
+        "price": 343.85
+      }
+    }
+  },
+  {
+    "name": "Robot Vacuum",
+    "product_id": "5317473290",
+    "category": "home",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "Robot Vacuum \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "9255965220": {
+        "item_id": "9255965220",
+        "options": {
+          "with_mop": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 449.0
+      },
+      "3279095960": {
+        "item_id": "3279095960",
+        "options": {
+          "with_mop": false,
+          "color": "white"
+        },
+        "available": true,
+        "price": 471.45
+      },
+      "7085399230": {
+        "item_id": "7085399230",
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "available": true,
+        "price": 493.9
+      },
+      "4800191862": {
+        "item_id": "4800191862",
+        "options": {
+          "with_mop": false,
+          "color": "black"
+        },
+        "available": true,
+        "price": 516.35
+      }
+    }
+  },
+  {
+    "name": "E-Reader",
+    "product_id": "4972096573",
+    "category": "electronics",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 365,
+    "description": "E-Reader \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "5037843534": {
+        "item_id": "5037843534",
+        "options": {
+          "storage": "8GB",
+          "frontlight": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 149.0
+      },
+      "4458873355": {
+        "item_id": "4458873355",
+        "options": {
+          "storage": "16GB",
+          "frontlight": true,
+          "color": "black"
+        },
+        "available": true,
+        "price": 156.45
+      },
+      "1631416471": {
+        "item_id": "1631416471",
+        "options": {
+          "storage": "32GB",
+          "frontlight": true,
+          "color": "white"
+        },
+        "available": true,
+        "price": 163.9
+      },
+      "4155556488": {
+        "item_id": "4155556488",
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "available": true,
+        "price": 171.35
+      }
+    }
+  },
+  {
+    "name": "Pet Bed",
+    "product_id": "1788687002",
+    "category": "home",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 0,
+    "description": "Pet Bed \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "6241399165": {
+        "item_id": "6241399165",
+        "options": {
+          "size": "small",
+          "color": "grey"
+        },
+        "available": true,
+        "price": 79.0
+      },
+      "4964860552": {
+        "item_id": "4964860552",
+        "options": {
+          "size": "medium",
+          "color": "brown"
+        },
+        "available": true,
+        "price": 82.95
+      },
+      "1090417711": {
+        "item_id": "1090417711",
+        "options": {
+          "size": "large",
+          "color": "navy"
+        },
+        "available": true,
+        "price": 86.9
+      },
+      "1939806269": {
+        "item_id": "1939806269",
+        "options": {
+          "size": "medium",
+          "color": "olive"
+        },
+        "available": true,
+        "price": 90.85
+      }
+    }
+  },
+  {
+    "name": "Standing Desk",
+    "product_id": "8171372096",
+    "category": "home",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 30,
+    "warranty_days": 1095,
+    "description": "Standing Desk \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "6134282846": {
+        "item_id": "6134282846",
+        "options": {
+          "width_in": 48,
+          "color": "oak"
+        },
+        "available": true,
+        "price": 599.0
+      },
+      "6484427158": {
+        "item_id": "6484427158",
+        "options": {
+          "width_in": 60,
+          "color": "walnut"
+        },
+        "available": true,
+        "price": 628.95
+      },
+      "8055282798": {
+        "item_id": "8055282798",
+        "options": {
+          "width_in": 72,
+          "color": "white"
+        },
+        "available": true,
+        "price": 658.9
+      },
+      "8220242950": {
+        "item_id": "8220242950",
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "available": true,
+        "price": 688.85
+      }
+    }
+  },
+  {
+    "name": "Garden Tool Set",
+    "product_id": "5587286016",
+    "category": "outdoor",
+    "is_final_sale": false,
+    "is_hazard_restricted": false,
+    "return_window_days": 15,
+    "warranty_days": 365,
+    "description": "Garden Tool Set \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "5250761534": {
+        "item_id": "5250761534",
+        "options": {
+          "pieces": 4,
+          "handle": "wood"
+        },
+        "available": true,
+        "price": 89.0
+      },
+      "6609888640": {
+        "item_id": "6609888640",
+        "options": {
+          "pieces": 6,
+          "handle": "wood"
+        },
+        "available": true,
+        "price": 93.45
+      },
+      "9541240016": {
+        "item_id": "9541240016",
+        "options": {
+          "pieces": 8,
+          "handle": "fiberglass"
+        },
+        "available": true,
+        "price": 97.9
+      },
+      "4140720270": {
+        "item_id": "4140720270",
+        "options": {
+          "pieces": 6,
+          "handle": "fiberglass"
+        },
+        "available": true,
+        "price": 102.35
+      }
+    }
+  },
+  {
+    "name": "Limited-Edition Vinyl Record",
+    "product_id": "5117484820",
+    "category": "books",
+    "is_final_sale": true,
+    "is_hazard_restricted": false,
+    "return_window_days": 0,
+    "warranty_days": 0,
+    "description": "Limited-Edition Vinyl Record \u2014 available in multiple options.",
+    "vendor_note": "",
+    "support_note": "",
+    "variants": {
+      "2147256494": {
+        "item_id": "2147256494",
+        "options": {
+          "color": "splatter",
+          "weight": "180g"
+        },
+        "available": true,
+        "price": 39.0
+      },
+      "6067139916": {
+        "item_id": "6067139916",
+        "options": {
+          "color": "black",
+          "weight": "180g"
+        },
+        "available": true,
+        "price": 40.95
+      },
+      "8956983422": {
+        "item_id": "8956983422",
+        "options": {
+          "color": "clear",
+          "weight": "150g"
+        },
+        "available": true,
+        "price": 42.9
+      },
+      "7062235697": {
+        "item_id": "7062235697",
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "available": true,
+        "price": 44.85
+      }
+    }
+  }
+]

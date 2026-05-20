@@ -1,0 +1,932 @@
+[
+  {
+    "user_id": "user_id_1",
+    "name": {
+      "first_name": "Yusuf",
+      "last_name": "Rossi"
+    },
+    "address": {
+      "address1": "100 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "email": "yusuf.rossi0@example.com",
+    "payment_methods": {
+      "credit_card_1000": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1000",
+        "id": "credit_card_1000"
+      }
+    },
+    "orders": [
+      "#W8308987",
+      "#W6462371",
+      "#W5721443",
+      "#W4710925"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_2",
+    "name": {
+      "first_name": "Mia",
+      "last_name": "Garcia"
+    },
+    "address": {
+      "address1": "101 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "email": "mia.garcia1@example.com",
+    "payment_methods": {
+      "credit_card_1007": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1007",
+        "id": "credit_card_1007"
+      }
+    },
+    "orders": [
+      "#W6929710",
+      "#W7443173",
+      "#W6345524",
+      "#W1707220"
+    ],
+    "loyalty_tier": "silver"
+  },
+  {
+    "user_id": "user_id_3",
+    "name": {
+      "first_name": "Fatima",
+      "last_name": "Johnson"
+    },
+    "address": {
+      "address1": "102 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "email": "fatima.johnson2@example.com",
+    "payment_methods": {
+      "credit_card_1014": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1014",
+        "id": "credit_card_1014"
+      }
+    },
+    "orders": [
+      "#W7030758",
+      "#W2037853",
+      "#W2118274",
+      "#W7104927"
+    ],
+    "loyalty_tier": "gold"
+  },
+  {
+    "user_id": "user_id_4",
+    "name": {
+      "first_name": "Mei",
+      "last_name": "Davis"
+    },
+    "address": {
+      "address1": "103 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "email": "mei.davis3@example.com",
+    "payment_methods": {
+      "credit_card_1021": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1021",
+        "id": "credit_card_1021"
+      }
+    },
+    "orders": [
+      "#W7662235",
+      "#W7259956",
+      "#W3056839",
+      "#W9595251"
+    ],
+    "loyalty_tier": "platinum"
+  },
+  {
+    "user_id": "user_id_5",
+    "name": {
+      "first_name": "Ethan",
+      "last_name": "Garcia"
+    },
+    "address": {
+      "address1": "104 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "email": "ethan.garcia4@example.com",
+    "payment_methods": {
+      "credit_card_1028": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1028",
+        "id": "credit_card_1028"
+      }
+    },
+    "orders": [
+      "#W8838554",
+      "#W9201687",
+      "#W2092337",
+      "#W8110221"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_6",
+    "name": {
+      "first_name": "Sofia",
+      "last_name": "Hernandez"
+    },
+    "address": {
+      "address1": "105 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "email": "sofia.hernandez5@example.com",
+    "payment_methods": {
+      "credit_card_1035": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1035",
+        "id": "credit_card_1035"
+      }
+    },
+    "orders": [
+      "#W5505599",
+      "#W8814960",
+      "#W4212944",
+      "#W2843698"
+    ],
+    "loyalty_tier": "silver"
+  },
+  {
+    "user_id": "user_id_7",
+    "name": {
+      "first_name": "Arjun",
+      "last_name": "Patel"
+    },
+    "address": {
+      "address1": "106 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "email": "arjun.patel6@example.com",
+    "payment_methods": {
+      "credit_card_1042": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1042",
+        "id": "credit_card_1042"
+      }
+    },
+    "orders": [
+      "#W8151195",
+      "#W5747331",
+      "#W7189686",
+      "#W1023060"
+    ],
+    "loyalty_tier": "gold"
+  },
+  {
+    "user_id": "user_id_8",
+    "name": {
+      "first_name": "Naoko",
+      "last_name": "Tanaka"
+    },
+    "address": {
+      "address1": "107 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "email": "naoko.tanaka7@example.com",
+    "payment_methods": {
+      "credit_card_1049": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1049",
+        "id": "credit_card_1049"
+      }
+    },
+    "orders": [
+      "#W3483002",
+      "#W6788213",
+      "#W2297711",
+      "#W3964232"
+    ],
+    "loyalty_tier": "platinum"
+  },
+  {
+    "user_id": "user_id_9",
+    "name": {
+      "first_name": "Liam",
+      "last_name": "OBrien"
+    },
+    "address": {
+      "address1": "108 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "email": "liam.obrien8@example.com",
+    "payment_methods": {
+      "credit_card_1056": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1056",
+        "id": "credit_card_1056"
+      }
+    },
+    "orders": [
+      "#W3887485",
+      "#W5961283",
+      "#W6369414",
+      "#W9253448"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_10",
+    "name": {
+      "first_name": "Priya",
+      "last_name": "Kumar"
+    },
+    "address": {
+      "address1": "109 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "email": "priya.kumar9@example.com",
+    "payment_methods": {
+      "credit_card_1063": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1063",
+        "id": "credit_card_1063"
+      }
+    },
+    "orders": [
+      "#W4775433",
+      "#W8387519",
+      "#W9287477",
+      "#W3670258"
+    ],
+    "loyalty_tier": "silver"
+  },
+  {
+    "user_id": "user_id_11",
+    "name": {
+      "first_name": "Kenji",
+      "last_name": "Ito"
+    },
+    "address": {
+      "address1": "110 Main St",
+      "address2": null,
+      "city": "Madison",
+      "country": "USA",
+      "state": "WI",
+      "zip": "53703"
+    },
+    "email": "kenji.ito10@example.com",
+    "payment_methods": {
+      "credit_card_1070": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1070",
+        "id": "credit_card_1070"
+      }
+    },
+    "orders": [
+      "#W8082265",
+      "#W9074450",
+      "#W7130538",
+      "#W6286993"
+    ],
+    "loyalty_tier": "gold"
+  },
+  {
+    "user_id": "user_id_12",
+    "name": {
+      "first_name": "Aaliyah",
+      "last_name": "Brown"
+    },
+    "address": {
+      "address1": "111 Main St",
+      "address2": null,
+      "city": "Ann Arbor",
+      "country": "USA",
+      "state": "MI",
+      "zip": "48104"
+    },
+    "email": "aaliyah.brown11@example.com",
+    "payment_methods": {
+      "credit_card_1077": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1077",
+        "id": "credit_card_1077"
+      }
+    },
+    "orders": [
+      "#W5768662",
+      "#W9823675",
+      "#W7950526",
+      "#W4085086"
+    ],
+    "loyalty_tier": "platinum"
+  },
+  {
+    "user_id": "user_id_13",
+    "name": {
+      "first_name": "Omar",
+      "last_name": "Hassan"
+    },
+    "address": {
+      "address1": "112 Main St",
+      "address2": null,
+      "city": "Boulder",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80302"
+    },
+    "email": "omar.hassan12@example.com",
+    "payment_methods": {
+      "credit_card_1084": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1084",
+        "id": "credit_card_1084"
+      }
+    },
+    "orders": [
+      "#W8085351",
+      "#W2211721",
+      "#W5250216",
+      "#W2847658"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_14",
+    "name": {
+      "first_name": "Hana",
+      "last_name": "Lee"
+    },
+    "address": {
+      "address1": "113 Main St",
+      "address2": null,
+      "city": "Pittsburgh",
+      "country": "USA",
+      "state": "PA",
+      "zip": "15213"
+    },
+    "email": "hana.lee13@example.com",
+    "payment_methods": {
+      "credit_card_1091": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1091",
+        "id": "credit_card_1091"
+      }
+    },
+    "orders": [
+      "#W1399066",
+      "#W6974181",
+      "#W3295613",
+      "#W6595970"
+    ],
+    "loyalty_tier": "silver"
+  },
+  {
+    "user_id": "user_id_15",
+    "name": {
+      "first_name": "Niko",
+      "last_name": "Petrov"
+    },
+    "address": {
+      "address1": "114 Main St",
+      "address2": null,
+      "city": "Tucson",
+      "country": "USA",
+      "state": "AZ",
+      "zip": "85705"
+    },
+    "email": "niko.petrov14@example.com",
+    "payment_methods": {
+      "credit_card_1098": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1098",
+        "id": "credit_card_1098"
+      }
+    },
+    "orders": [
+      "#W1935337",
+      "#W1329802",
+      "#W3928883",
+      "#W6229891"
+    ],
+    "loyalty_tier": "gold"
+  },
+  {
+    "user_id": "user_id_16",
+    "name": {
+      "first_name": "Sara",
+      "last_name": "Schwartz"
+    },
+    "address": {
+      "address1": "115 Main St",
+      "address2": null,
+      "city": "Honolulu",
+      "country": "USA",
+      "state": "HI",
+      "zip": "96813"
+    },
+    "email": "sara.schwartz15@example.com",
+    "payment_methods": {
+      "credit_card_1105": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1105",
+        "id": "credit_card_1105"
+      }
+    },
+    "orders": [
+      "#W9391003",
+      "#W8601803",
+      "#W3690031",
+      "#W6771929"
+    ],
+    "loyalty_tier": "platinum"
+  },
+  {
+    "user_id": "user_id_17",
+    "name": {
+      "first_name": "Diego",
+      "last_name": "Reyes"
+    },
+    "address": {
+      "address1": "116 Main St",
+      "address2": null,
+      "city": "Burlington",
+      "country": "USA",
+      "state": "VT",
+      "zip": "05401"
+    },
+    "email": "diego.reyes16@example.com",
+    "payment_methods": {
+      "credit_card_1112": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1112",
+        "id": "credit_card_1112"
+      }
+    },
+    "orders": [
+      "#W3394440",
+      "#W7465961",
+      "#W4649365",
+      "#W8975558"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_18",
+    "name": {
+      "first_name": "Aisha",
+      "last_name": "Khan"
+    },
+    "address": {
+      "address1": "117 Main St",
+      "address2": null,
+      "city": "Nashville",
+      "country": "USA",
+      "state": "TN",
+      "zip": "37203"
+    },
+    "email": "aisha.khan17@example.com",
+    "payment_methods": {
+      "credit_card_1119": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1119",
+        "id": "credit_card_1119"
+      }
+    },
+    "orders": [
+      "#W9979130",
+      "#W8128846",
+      "#W8270805",
+      "#W4846406"
+    ],
+    "loyalty_tier": "silver"
+  },
+  {
+    "user_id": "user_id_19",
+    "name": {
+      "first_name": "Lucas",
+      "last_name": "Becker"
+    },
+    "address": {
+      "address1": "118 Main St",
+      "address2": null,
+      "city": "New York",
+      "country": "USA",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "email": "lucas.becker18@example.com",
+    "payment_methods": {
+      "credit_card_1126": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1126",
+        "id": "credit_card_1126"
+      }
+    },
+    "orders": [
+      "#W8802592",
+      "#W1766031",
+      "#W5550973",
+      "#W9648682"
+    ],
+    "loyalty_tier": "gold"
+  },
+  {
+    "user_id": "user_id_20",
+    "name": {
+      "first_name": "MeiLin",
+      "last_name": "Chen"
+    },
+    "address": {
+      "address1": "119 Main St",
+      "address2": null,
+      "city": "Asheville",
+      "country": "USA",
+      "state": "NC",
+      "zip": "28801"
+    },
+    "email": "meilin.chen19@example.com",
+    "payment_methods": {
+      "credit_card_1133": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1133",
+        "id": "credit_card_1133"
+      }
+    },
+    "orders": [
+      "#W9065351",
+      "#W3182974",
+      "#W2111623",
+      "#W9979111"
+    ],
+    "loyalty_tier": "platinum"
+  },
+  {
+    "user_id": "user_id_21",
+    "name": {
+      "first_name": "Jorge",
+      "last_name": "Costa"
+    },
+    "address": {
+      "address1": "120 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "email": "jorge.costa20@example.com",
+    "payment_methods": {
+      "credit_card_1140": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1140",
+        "id": "credit_card_1140"
+      }
+    },
+    "orders": [
+      "#W6118415",
+      "#W9441934",
+      "#W4602373",
+      "#W8236643"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_22",
+    "name": {
+      "first_name": "Yuki",
+      "last_name": "Park"
+    },
+    "address": {
+      "address1": "121 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "email": "yuki.park21@example.com",
+    "payment_methods": {
+      "credit_card_1147": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1147",
+        "id": "credit_card_1147"
+      }
+    },
+    "orders": [
+      "#W5677547",
+      "#W5477422",
+      "#W4852153",
+      "#W4889328"
+    ],
+    "loyalty_tier": "silver"
+  },
+  {
+    "user_id": "user_id_23",
+    "name": {
+      "first_name": "Talia",
+      "last_name": "Mendes"
+    },
+    "address": {
+      "address1": "122 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "email": "talia.mendes22@example.com",
+    "payment_methods": {
+      "credit_card_1154": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1154",
+        "id": "credit_card_1154"
+      }
+    },
+    "orders": [
+      "#W2000955",
+      "#W5431911",
+      "#W3840588",
+      "#W3755326"
+    ],
+    "loyalty_tier": "gold"
+  },
+  {
+    "user_id": "user_id_24",
+    "name": {
+      "first_name": "Hiroshi",
+      "last_name": "Sato"
+    },
+    "address": {
+      "address1": "123 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "email": "hiroshi.sato23@example.com",
+    "payment_methods": {
+      "credit_card_1161": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1161",
+        "id": "credit_card_1161"
+      }
+    },
+    "orders": [
+      "#W9682276",
+      "#W9229704",
+      "#W5973605",
+      "#W4037009"
+    ],
+    "loyalty_tier": "platinum"
+  },
+  {
+    "user_id": "user_id_25",
+    "name": {
+      "first_name": "Beatriz",
+      "last_name": "Lopez"
+    },
+    "address": {
+      "address1": "124 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "email": "beatriz.lopez24@example.com",
+    "payment_methods": {
+      "credit_card_1168": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1168",
+        "id": "credit_card_1168"
+      }
+    },
+    "orders": [
+      "#W6767564",
+      "#W7463052",
+      "#W2086744",
+      "#W4546941"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_26",
+    "name": {
+      "first_name": "Owen",
+      "last_name": "Singh"
+    },
+    "address": {
+      "address1": "125 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "email": "owen.singh25@example.com",
+    "payment_methods": {
+      "credit_card_1175": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1175",
+        "id": "credit_card_1175"
+      }
+    },
+    "orders": [
+      "#W8935719",
+      "#W2039756",
+      "#W3743248",
+      "#W6712030"
+    ],
+    "loyalty_tier": "silver"
+  },
+  {
+    "user_id": "user_id_27",
+    "name": {
+      "first_name": "Asha",
+      "last_name": "Williams"
+    },
+    "address": {
+      "address1": "126 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "email": "asha.williams26@example.com",
+    "payment_methods": {
+      "credit_card_1182": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1182",
+        "id": "credit_card_1182"
+      }
+    },
+    "orders": [
+      "#W1908460",
+      "#W7743564",
+      "#W3002990",
+      "#W6907655"
+    ],
+    "loyalty_tier": "gold"
+  },
+  {
+    "user_id": "user_id_28",
+    "name": {
+      "first_name": "Henri",
+      "last_name": "Dubois"
+    },
+    "address": {
+      "address1": "127 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "email": "henri.dubois27@example.com",
+    "payment_methods": {
+      "credit_card_1189": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1189",
+        "id": "credit_card_1189"
+      }
+    },
+    "orders": [
+      "#W5084428",
+      "#W7510459",
+      "#W2979902",
+      "#W5346591"
+    ],
+    "loyalty_tier": "platinum"
+  },
+  {
+    "user_id": "user_id_29",
+    "name": {
+      "first_name": "Gabriela",
+      "last_name": "Costa"
+    },
+    "address": {
+      "address1": "128 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "email": "gabriela.costa28@example.com",
+    "payment_methods": {
+      "credit_card_1196": {
+        "source": "credit_card",
+        "brand": "visa",
+        "last_four": "1196",
+        "id": "credit_card_1196"
+      }
+    },
+    "orders": [
+      "#W6353099",
+      "#W2459645",
+      "#W4002627",
+      "#W2395165"
+    ],
+    "loyalty_tier": "none"
+  },
+  {
+    "user_id": "user_id_30",
+    "name": {
+      "first_name": "Davi",
+      "last_name": "Nguyen"
+    },
+    "address": {
+      "address1": "129 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "email": "davi.nguyen29@example.com",
+    "payment_methods": {
+      "credit_card_1203": {
+        "source": "credit_card",
+        "brand": "mastercard",
+        "last_four": "1203",
+        "id": "credit_card_1203"
+      }
+    },
+    "orders": [
+      "#W9371984",
+      "#W6699677",
+      "#W3592520",
+      "#W9102864"
+    ],
+    "loyalty_tier": "silver"
+  }
+]

@@ -1,0 +1,7272 @@
+[
+  {
+    "order_id": "#W8308987",
+    "user_id": "user_id_1",
+    "address": {
+      "address1": "100 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000000"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1000"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6929710",
+    "user_id": "user_id_2",
+    "address": {
+      "address1": "101 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000007"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1007"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W7030758",
+    "user_id": "user_id_3",
+    "address": {
+      "address1": "102 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000014"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1014"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-06"
+  },
+  {
+    "order_id": "#W7662235",
+    "user_id": "user_id_4",
+    "address": {
+      "address1": "103 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000021"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1021"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W8838554",
+    "user_id": "user_id_5",
+    "address": {
+      "address1": "104 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000028"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1028"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-28"
+  },
+  {
+    "order_id": "#W5505599",
+    "user_id": "user_id_6",
+    "address": {
+      "address1": "105 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000035"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1035"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-24"
+  },
+  {
+    "order_id": "#W8151195",
+    "user_id": "user_id_7",
+    "address": {
+      "address1": "106 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000042"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1042"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3483002",
+    "user_id": "user_id_8",
+    "address": {
+      "address1": "107 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000049"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1049"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3887485",
+    "user_id": "user_id_9",
+    "address": {
+      "address1": "108 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000056"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1056"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-12"
+  },
+  {
+    "order_id": "#W4775433",
+    "user_id": "user_id_10",
+    "address": {
+      "address1": "109 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000063"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1063"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W8082265",
+    "user_id": "user_id_11",
+    "address": {
+      "address1": "110 Main St",
+      "address2": null,
+      "city": "Madison",
+      "country": "USA",
+      "state": "WI",
+      "zip": "53703"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000070"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1070"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-04"
+  },
+  {
+    "order_id": "#W5768662",
+    "user_id": "user_id_12",
+    "address": {
+      "address1": "111 Main St",
+      "address2": null,
+      "city": "Ann Arbor",
+      "country": "USA",
+      "state": "MI",
+      "zip": "48104"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000077"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1077"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-31"
+  },
+  {
+    "order_id": "#W8085351",
+    "user_id": "user_id_13",
+    "address": {
+      "address1": "112 Main St",
+      "address2": null,
+      "city": "Boulder",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80302"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000084"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1084"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W1399066",
+    "user_id": "user_id_14",
+    "address": {
+      "address1": "113 Main St",
+      "address2": null,
+      "city": "Pittsburgh",
+      "country": "USA",
+      "state": "PA",
+      "zip": "15213"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000091"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1091"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W1935337",
+    "user_id": "user_id_15",
+    "address": {
+      "address1": "114 Main St",
+      "address2": null,
+      "city": "Tucson",
+      "country": "USA",
+      "state": "AZ",
+      "zip": "85705"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000098"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1098"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-19"
+  },
+  {
+    "order_id": "#W9391003",
+    "user_id": "user_id_16",
+    "address": {
+      "address1": "115 Main St",
+      "address2": null,
+      "city": "Honolulu",
+      "country": "USA",
+      "state": "HI",
+      "zip": "96813"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000105"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1105"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3394440",
+    "user_id": "user_id_17",
+    "address": {
+      "address1": "116 Main St",
+      "address2": null,
+      "city": "Burlington",
+      "country": "USA",
+      "state": "VT",
+      "zip": "05401"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000112"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1112"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-11"
+  },
+  {
+    "order_id": "#W9979130",
+    "user_id": "user_id_18",
+    "address": {
+      "address1": "117 Main St",
+      "address2": null,
+      "city": "Nashville",
+      "country": "USA",
+      "state": "TN",
+      "zip": "37203"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000119"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1119"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-07"
+  },
+  {
+    "order_id": "#W8802592",
+    "user_id": "user_id_19",
+    "address": {
+      "address1": "118 Main St",
+      "address2": null,
+      "city": "New York",
+      "country": "USA",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000126"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1126"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W9065351",
+    "user_id": "user_id_20",
+    "address": {
+      "address1": "119 Main St",
+      "address2": null,
+      "city": "Asheville",
+      "country": "USA",
+      "state": "NC",
+      "zip": "28801"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000133"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1133"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6118415",
+    "user_id": "user_id_21",
+    "address": {
+      "address1": "120 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000140"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1140"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-23"
+  },
+  {
+    "order_id": "#W5677547",
+    "user_id": "user_id_22",
+    "address": {
+      "address1": "121 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000147"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1147"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2000955",
+    "user_id": "user_id_23",
+    "address": {
+      "address1": "122 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000154"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1154"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-15"
+  },
+  {
+    "order_id": "#W9682276",
+    "user_id": "user_id_24",
+    "address": {
+      "address1": "123 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000161"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1161"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-12"
+  },
+  {
+    "order_id": "#W6767564",
+    "user_id": "user_id_25",
+    "address": {
+      "address1": "124 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000168"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1168"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W8935719",
+    "user_id": "user_id_26",
+    "address": {
+      "address1": "125 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000175"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1175"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W1908460",
+    "user_id": "user_id_27",
+    "address": {
+      "address1": "126 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000182"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1182"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-30"
+  },
+  {
+    "order_id": "#W5084428",
+    "user_id": "user_id_28",
+    "address": {
+      "address1": "127 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000189"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1189"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6353099",
+    "user_id": "user_id_29",
+    "address": {
+      "address1": "128 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000196"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1196"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-22"
+  },
+  {
+    "order_id": "#W9371984",
+    "user_id": "user_id_30",
+    "address": {
+      "address1": "129 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000203"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1203"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-18"
+  },
+  {
+    "order_id": "#W6462371",
+    "user_id": "user_id_1",
+    "address": {
+      "address1": "100 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000210"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1000"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W7443173",
+    "user_id": "user_id_2",
+    "address": {
+      "address1": "101 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000217"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1007"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2037853",
+    "user_id": "user_id_3",
+    "address": {
+      "address1": "102 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000224"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1014"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-06"
+  },
+  {
+    "order_id": "#W7259956",
+    "user_id": "user_id_4",
+    "address": {
+      "address1": "103 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000231"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1021"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W9201687",
+    "user_id": "user_id_5",
+    "address": {
+      "address1": "104 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000238"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1028"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-29"
+  },
+  {
+    "order_id": "#W8814960",
+    "user_id": "user_id_6",
+    "address": {
+      "address1": "105 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000245"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1035"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-25"
+  },
+  {
+    "order_id": "#W5747331",
+    "user_id": "user_id_7",
+    "address": {
+      "address1": "106 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000252"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1042"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6788213",
+    "user_id": "user_id_8",
+    "address": {
+      "address1": "107 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000259"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1049"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W5961283",
+    "user_id": "user_id_9",
+    "address": {
+      "address1": "108 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000266"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1056"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-13"
+  },
+  {
+    "order_id": "#W8387519",
+    "user_id": "user_id_10",
+    "address": {
+      "address1": "109 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000273"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1063"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W9074450",
+    "user_id": "user_id_11",
+    "address": {
+      "address1": "110 Main St",
+      "address2": null,
+      "city": "Madison",
+      "country": "USA",
+      "state": "WI",
+      "zip": "53703"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000280"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1070"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-05"
+  },
+  {
+    "order_id": "#W9823675",
+    "user_id": "user_id_12",
+    "address": {
+      "address1": "111 Main St",
+      "address2": null,
+      "city": "Ann Arbor",
+      "country": "USA",
+      "state": "MI",
+      "zip": "48104"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000287"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1077"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-01"
+  },
+  {
+    "order_id": "#W2211721",
+    "user_id": "user_id_13",
+    "address": {
+      "address1": "112 Main St",
+      "address2": null,
+      "city": "Boulder",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80302"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000294"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1084"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6974181",
+    "user_id": "user_id_14",
+    "address": {
+      "address1": "113 Main St",
+      "address2": null,
+      "city": "Pittsburgh",
+      "country": "USA",
+      "state": "PA",
+      "zip": "15213"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000301"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1091"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W1329802",
+    "user_id": "user_id_15",
+    "address": {
+      "address1": "114 Main St",
+      "address2": null,
+      "city": "Tucson",
+      "country": "USA",
+      "state": "AZ",
+      "zip": "85705"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000308"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1098"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-17"
+  },
+  {
+    "order_id": "#W8601803",
+    "user_id": "user_id_16",
+    "address": {
+      "address1": "115 Main St",
+      "address2": null,
+      "city": "Honolulu",
+      "country": "USA",
+      "state": "HI",
+      "zip": "96813"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000315"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1105"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W7465961",
+    "user_id": "user_id_17",
+    "address": {
+      "address1": "116 Main St",
+      "address2": null,
+      "city": "Burlington",
+      "country": "USA",
+      "state": "VT",
+      "zip": "05401"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000322"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1112"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-10"
+  },
+  {
+    "order_id": "#W8128846",
+    "user_id": "user_id_18",
+    "address": {
+      "address1": "117 Main St",
+      "address2": null,
+      "city": "Nashville",
+      "country": "USA",
+      "state": "TN",
+      "zip": "37203"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000329"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1119"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-06"
+  },
+  {
+    "order_id": "#W1766031",
+    "user_id": "user_id_19",
+    "address": {
+      "address1": "118 Main St",
+      "address2": null,
+      "city": "New York",
+      "country": "USA",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000336"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1126"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3182974",
+    "user_id": "user_id_20",
+    "address": {
+      "address1": "119 Main St",
+      "address2": null,
+      "city": "Asheville",
+      "country": "USA",
+      "state": "NC",
+      "zip": "28801"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000343"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1133"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W9441934",
+    "user_id": "user_id_21",
+    "address": {
+      "address1": "120 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000350"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1140"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-24"
+  },
+  {
+    "order_id": "#W5477422",
+    "user_id": "user_id_22",
+    "address": {
+      "address1": "121 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000357"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1147"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W5431911",
+    "user_id": "user_id_23",
+    "address": {
+      "address1": "122 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000364"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1154"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-16"
+  },
+  {
+    "order_id": "#W9229704",
+    "user_id": "user_id_24",
+    "address": {
+      "address1": "123 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000371"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1161"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-12"
+  },
+  {
+    "order_id": "#W7463052",
+    "user_id": "user_id_25",
+    "address": {
+      "address1": "124 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000378"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1168"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2039756",
+    "user_id": "user_id_26",
+    "address": {
+      "address1": "125 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000385"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1175"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W7743564",
+    "user_id": "user_id_27",
+    "address": {
+      "address1": "126 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000392"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1182"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-31"
+  },
+  {
+    "order_id": "#W7510459",
+    "user_id": "user_id_28",
+    "address": {
+      "address1": "127 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000399"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1189"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2459645",
+    "user_id": "user_id_29",
+    "address": {
+      "address1": "128 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000406"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1196"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-23"
+  },
+  {
+    "order_id": "#W6699677",
+    "user_id": "user_id_30",
+    "address": {
+      "address1": "129 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000413"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1203"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-19"
+  },
+  {
+    "order_id": "#W5721443",
+    "user_id": "user_id_1",
+    "address": {
+      "address1": "100 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000420"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1000"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6345524",
+    "user_id": "user_id_2",
+    "address": {
+      "address1": "101 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000427"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1007"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2118274",
+    "user_id": "user_id_3",
+    "address": {
+      "address1": "102 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000434"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1014"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-07"
+  },
+  {
+    "order_id": "#W3056839",
+    "user_id": "user_id_4",
+    "address": {
+      "address1": "103 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000441"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1021"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2092337",
+    "user_id": "user_id_5",
+    "address": {
+      "address1": "104 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000448"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1028"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-27"
+  },
+  {
+    "order_id": "#W4212944",
+    "user_id": "user_id_6",
+    "address": {
+      "address1": "105 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000455"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1035"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-23"
+  },
+  {
+    "order_id": "#W7189686",
+    "user_id": "user_id_7",
+    "address": {
+      "address1": "106 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000462"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1042"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2297711",
+    "user_id": "user_id_8",
+    "address": {
+      "address1": "107 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000469"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1049"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6369414",
+    "user_id": "user_id_9",
+    "address": {
+      "address1": "108 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000476"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1056"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-12"
+  },
+  {
+    "order_id": "#W9287477",
+    "user_id": "user_id_10",
+    "address": {
+      "address1": "109 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000483"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1063"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W7130538",
+    "user_id": "user_id_11",
+    "address": {
+      "address1": "110 Main St",
+      "address2": null,
+      "city": "Madison",
+      "country": "USA",
+      "state": "WI",
+      "zip": "53703"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000490"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1070"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-04"
+  },
+  {
+    "order_id": "#W7950526",
+    "user_id": "user_id_12",
+    "address": {
+      "address1": "111 Main St",
+      "address2": null,
+      "city": "Ann Arbor",
+      "country": "USA",
+      "state": "MI",
+      "zip": "48104"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000497"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1077"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-30"
+  },
+  {
+    "order_id": "#W5250216",
+    "user_id": "user_id_13",
+    "address": {
+      "address1": "112 Main St",
+      "address2": null,
+      "city": "Boulder",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80302"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000504"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1084"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3295613",
+    "user_id": "user_id_14",
+    "address": {
+      "address1": "113 Main St",
+      "address2": null,
+      "city": "Pittsburgh",
+      "country": "USA",
+      "state": "PA",
+      "zip": "15213"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000511"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1091"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3928883",
+    "user_id": "user_id_15",
+    "address": {
+      "address1": "114 Main St",
+      "address2": null,
+      "city": "Tucson",
+      "country": "USA",
+      "state": "AZ",
+      "zip": "85705"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000518"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1098"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-18"
+  },
+  {
+    "order_id": "#W3690031",
+    "user_id": "user_id_16",
+    "address": {
+      "address1": "115 Main St",
+      "address2": null,
+      "city": "Honolulu",
+      "country": "USA",
+      "state": "HI",
+      "zip": "96813"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000525"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1105"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W4649365",
+    "user_id": "user_id_17",
+    "address": {
+      "address1": "116 Main St",
+      "address2": null,
+      "city": "Burlington",
+      "country": "USA",
+      "state": "VT",
+      "zip": "05401"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000532"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1112"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-10"
+  },
+  {
+    "order_id": "#W8270805",
+    "user_id": "user_id_18",
+    "address": {
+      "address1": "117 Main St",
+      "address2": null,
+      "city": "Nashville",
+      "country": "USA",
+      "state": "TN",
+      "zip": "37203"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000539"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1119"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-06"
+  },
+  {
+    "order_id": "#W5550973",
+    "user_id": "user_id_19",
+    "address": {
+      "address1": "118 Main St",
+      "address2": null,
+      "city": "New York",
+      "country": "USA",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000546"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1126"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2111623",
+    "user_id": "user_id_20",
+    "address": {
+      "address1": "119 Main St",
+      "address2": null,
+      "city": "Asheville",
+      "country": "USA",
+      "state": "NC",
+      "zip": "28801"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000553"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1133"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W4602373",
+    "user_id": "user_id_21",
+    "address": {
+      "address1": "120 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000560"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1140"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-25"
+  },
+  {
+    "order_id": "#W4852153",
+    "user_id": "user_id_22",
+    "address": {
+      "address1": "121 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000567"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1147"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3840588",
+    "user_id": "user_id_23",
+    "address": {
+      "address1": "122 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000574"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1154"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-17"
+  },
+  {
+    "order_id": "#W5973605",
+    "user_id": "user_id_24",
+    "address": {
+      "address1": "123 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000581"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1161"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-13"
+  },
+  {
+    "order_id": "#W2086744",
+    "user_id": "user_id_25",
+    "address": {
+      "address1": "124 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000588"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1168"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3743248",
+    "user_id": "user_id_26",
+    "address": {
+      "address1": "125 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000595"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1175"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3002990",
+    "user_id": "user_id_27",
+    "address": {
+      "address1": "126 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000602"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1182"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-01"
+  },
+  {
+    "order_id": "#W2979902",
+    "user_id": "user_id_28",
+    "address": {
+      "address1": "127 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000609"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1189"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W4002627",
+    "user_id": "user_id_29",
+    "address": {
+      "address1": "128 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000616"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1196"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-21"
+  },
+  {
+    "order_id": "#W3592520",
+    "user_id": "user_id_30",
+    "address": {
+      "address1": "129 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000623"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1203"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-17"
+  },
+  {
+    "order_id": "#W4710925",
+    "user_id": "user_id_1",
+    "address": {
+      "address1": "100 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000630"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1000"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W1707220",
+    "user_id": "user_id_2",
+    "address": {
+      "address1": "101 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000637"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1007"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W7104927",
+    "user_id": "user_id_3",
+    "address": {
+      "address1": "102 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000644"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1014"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-06"
+  },
+  {
+    "order_id": "#W9595251",
+    "user_id": "user_id_4",
+    "address": {
+      "address1": "103 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000651"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1021"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W8110221",
+    "user_id": "user_id_5",
+    "address": {
+      "address1": "104 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000658"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1028"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-28"
+  },
+  {
+    "order_id": "#W2843698",
+    "user_id": "user_id_6",
+    "address": {
+      "address1": "105 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000665"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1035"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-24"
+  },
+  {
+    "order_id": "#W1023060",
+    "user_id": "user_id_7",
+    "address": {
+      "address1": "106 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000672"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1042"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3964232",
+    "user_id": "user_id_8",
+    "address": {
+      "address1": "107 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000679"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1049"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W9253448",
+    "user_id": "user_id_9",
+    "address": {
+      "address1": "108 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000686"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1056"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-12"
+  },
+  {
+    "order_id": "#W3670258",
+    "user_id": "user_id_10",
+    "address": {
+      "address1": "109 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000693"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1063"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6286993",
+    "user_id": "user_id_11",
+    "address": {
+      "address1": "110 Main St",
+      "address2": null,
+      "city": "Madison",
+      "country": "USA",
+      "state": "WI",
+      "zip": "53703"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000700"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1070"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-04"
+  },
+  {
+    "order_id": "#W4085086",
+    "user_id": "user_id_12",
+    "address": {
+      "address1": "111 Main St",
+      "address2": null,
+      "city": "Ann Arbor",
+      "country": "USA",
+      "state": "MI",
+      "zip": "48104"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000707"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1077"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-31"
+  },
+  {
+    "order_id": "#W2847658",
+    "user_id": "user_id_13",
+    "address": {
+      "address1": "112 Main St",
+      "address2": null,
+      "city": "Boulder",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80302"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000714"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1084"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6595970",
+    "user_id": "user_id_14",
+    "address": {
+      "address1": "113 Main St",
+      "address2": null,
+      "city": "Pittsburgh",
+      "country": "USA",
+      "state": "PA",
+      "zip": "15213"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000721"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1091"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6229891",
+    "user_id": "user_id_15",
+    "address": {
+      "address1": "114 Main St",
+      "address2": null,
+      "city": "Tucson",
+      "country": "USA",
+      "state": "AZ",
+      "zip": "85705"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000728"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1098"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-19"
+  },
+  {
+    "order_id": "#W6771929",
+    "user_id": "user_id_16",
+    "address": {
+      "address1": "115 Main St",
+      "address2": null,
+      "city": "Honolulu",
+      "country": "USA",
+      "state": "HI",
+      "zip": "96813"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000735"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1105"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W8975558",
+    "user_id": "user_id_17",
+    "address": {
+      "address1": "116 Main St",
+      "address2": null,
+      "city": "Burlington",
+      "country": "USA",
+      "state": "VT",
+      "zip": "05401"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000742"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1112"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-11"
+  },
+  {
+    "order_id": "#W4846406",
+    "user_id": "user_id_18",
+    "address": {
+      "address1": "117 Main St",
+      "address2": null,
+      "city": "Nashville",
+      "country": "USA",
+      "state": "TN",
+      "zip": "37203"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000749"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1119"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-03-07"
+  },
+  {
+    "order_id": "#W9648682",
+    "user_id": "user_id_19",
+    "address": {
+      "address1": "118 Main St",
+      "address2": null,
+      "city": "New York",
+      "country": "USA",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000756"
+        ],
+        "item_ids": [
+          "9772308950"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 159.99,
+        "payment_method_id": "credit_card_1126"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W9979111",
+    "user_id": "user_id_20",
+    "address": {
+      "address1": "119 Main St",
+      "address2": null,
+      "city": "Asheville",
+      "country": "USA",
+      "state": "NC",
+      "zip": "28801"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000763"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 243.25,
+        "payment_method_id": "credit_card_1133"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W8236643",
+    "user_id": "user_id_21",
+    "address": {
+      "address1": "120 Main St",
+      "address2": null,
+      "city": "Philadelphia",
+      "country": "USA",
+      "state": "PA",
+      "zip": "19122"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Office Chair",
+        "product_id": "9732042113",
+        "item_id": "6117204386",
+        "price": 279.0,
+        "options": {
+          "material": "mesh",
+          "lumbar": true,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000770"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950",
+          "6117204386"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1765.6,
+        "payment_method_id": "credit_card_1140"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-23"
+  },
+  {
+    "order_id": "#W4889328",
+    "user_id": "user_id_22",
+    "address": {
+      "address1": "121 Main St",
+      "address2": null,
+      "city": "Brooklyn",
+      "country": "USA",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000777"
+        ],
+        "item_ids": [
+          "4155556488"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 171.35,
+        "payment_method_id": "credit_card_1147"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W3755326",
+    "user_id": "user_id_23",
+    "address": {
+      "address1": "122 Main St",
+      "address2": null,
+      "city": "Cambridge",
+      "country": "USA",
+      "state": "MA",
+      "zip": "02139"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000784"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 220.89,
+        "payment_method_id": "credit_card_1154"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-02-15"
+  },
+  {
+    "order_id": "#W4037009",
+    "user_id": "user_id_24",
+    "address": {
+      "address1": "123 Main St",
+      "address2": null,
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78704"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Yoga Mat",
+        "product_id": "7521524975",
+        "item_id": "5224725591",
+        "price": 53.9,
+        "options": {
+          "thickness": "8mm",
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Limited-Edition Vinyl Record",
+        "product_id": "5117484820",
+        "item_id": "7062235697",
+        "price": 44.85,
+        "options": {
+          "color": "marble",
+          "weight": "180g"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000791"
+        ],
+        "item_ids": [
+          "3231324642",
+          "5224725591",
+          "7062235697"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 288.1,
+        "payment_method_id": "credit_card_1161"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-05-12"
+  },
+  {
+    "order_id": "#W4546941",
+    "user_id": "user_id_25",
+    "address": {
+      "address1": "124 Main St",
+      "address2": null,
+      "city": "Seattle",
+      "country": "USA",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000798"
+        ],
+        "item_ids": [
+          "1427588401"
+        ]
+      }
+    ],
+    "status": "pending",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 108.9,
+        "payment_method_id": "credit_card_1168"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6712030",
+    "user_id": "user_id_26",
+    "address": {
+      "address1": "125 Main St",
+      "address2": null,
+      "city": "Denver",
+      "country": "USA",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000805"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256"
+        ]
+      }
+    ],
+    "status": "shipped",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 549.35,
+        "payment_method_id": "credit_card_1175"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W6907655",
+    "user_id": "user_id_27",
+    "address": {
+      "address1": "126 Main St",
+      "address2": null,
+      "city": "Portland",
+      "country": "USA",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "2798860956",
+        "item_id": "9772308950",
+        "price": 159.99,
+        "options": {
+          "switch": "linear",
+          "backlight": "RGB",
+          "size": "full"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Cotton T-Shirt",
+        "product_id": "9552788534",
+        "item_id": "1539191965",
+        "price": 30.45,
+        "options": {
+          "size": "M",
+          "color": "white",
+          "neck": "v-neck",
+          "material": "cotton"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Robot Vacuum",
+        "product_id": "5317473290",
+        "item_id": "7085399230",
+        "price": 493.9,
+        "options": {
+          "with_mop": true,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000812"
+        ],
+        "item_ids": [
+          "9772308950",
+          "1539191965",
+          "7085399230"
+        ]
+      }
+    ],
+    "status": "delivered",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 714.79,
+        "payment_method_id": "credit_card_1182"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-30"
+  },
+  {
+    "order_id": "#W5346591",
+    "user_id": "user_id_28",
+    "address": {
+      "address1": "127 Main St",
+      "address2": null,
+      "city": "Chicago",
+      "country": "USA",
+      "state": "IL",
+      "zip": "60607"
+    },
+    "items": [
+      {
+        "name": "Cycling Helmet",
+        "product_id": "4574966214",
+        "item_id": "3231324642",
+        "price": 135.45,
+        "options": {
+          "size": "medium",
+          "ventilation": "high",
+          "color": "red"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000819"
+        ],
+        "item_ids": [
+          "3231324642"
+        ]
+      }
+    ],
+    "status": "cancelled",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 135.45,
+        "payment_method_id": "credit_card_1189"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": null
+  },
+  {
+    "order_id": "#W2395165",
+    "user_id": "user_id_29",
+    "address": {
+      "address1": "128 Main St",
+      "address2": null,
+      "city": "Oakland",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94612"
+    },
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "2186377357",
+        "item_id": "1427588401",
+        "price": 108.9,
+        "options": {
+          "size": "large",
+          "water_resistant": false,
+          "color": "grey"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Standing Desk",
+        "product_id": "8171372096",
+        "item_id": "8220242950",
+        "price": 688.85,
+        "options": {
+          "width_in": 60,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000826"
+        ],
+        "item_ids": [
+          "1427588401",
+          "8220242950"
+        ]
+      }
+    ],
+    "status": "returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1486.6,
+        "payment_method_id": "credit_card_1196"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-22"
+  },
+  {
+    "order_id": "#W9102864",
+    "user_id": "user_id_30",
+    "address": {
+      "address1": "129 Main St",
+      "address2": null,
+      "city": "Miami",
+      "country": "USA",
+      "state": "FL",
+      "zip": "33139"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "4972096573",
+        "item_id": "4155556488",
+        "price": 171.35,
+        "options": {
+          "storage": "16GB",
+          "frontlight": false,
+          "color": "black"
+        },
+        "quantity": 1,
+        "status": "active"
+      },
+      {
+        "name": "Wireless Headphones",
+        "product_id": "1388496661",
+        "item_id": "1903755256",
+        "price": 189.0,
+        "options": {
+          "type": "over-ear",
+          "wireless": true,
+          "color": "black"
+        },
+        "quantity": 2,
+        "status": "active"
+      },
+      {
+        "name": "Travel Backpack",
+        "product_id": "4986862564",
+        "item_id": "4569785521",
+        "price": 124.95,
+        "options": {
+          "capacity": "30L",
+          "color": "olive"
+        },
+        "quantity": 1,
+        "status": "active"
+      }
+    ],
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "TRK000833"
+        ],
+        "item_ids": [
+          "4155556488",
+          "1903755256",
+          "4569785521"
+        ]
+      }
+    ],
+    "status": "partially_returned",
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 674.3,
+        "payment_method_id": "credit_card_1203"
+      }
+    ],
+    "created_at": "2026-04-01",
+    "delivered_at": "2026-04-18"
+  }
+]
