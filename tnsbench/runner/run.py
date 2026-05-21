@@ -70,8 +70,10 @@ def filter_tasks(tasks: List[Task], spec: str, limit: Optional[int] = None) -> L
     elif spec in ("overrefusal_calibration", "calibration", "benign", "benign_control"):
         out = [t for t in tasks if t.split == "benign_control"]
     elif spec.startswith("category:"):
-        cat = spec.split(":", 1)[1]
-        out = [t for t in tasks if cat in t.categories or t.primary_category == cat]
+        # Accept comma-separated categories: "category:fraud,account_takeover,mixed".
+        cats = {c.strip() for c in spec.split(":", 1)[1].split(",") if c.strip()}
+        out = [t for t in tasks
+                if (t.primary_category in cats) or (cats & set(t.categories))]
     elif spec.startswith("strategy:"):
         s = spec.split(":", 1)[1]
         out = [t for t in tasks if s in t.attack_strategies]
