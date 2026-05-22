@@ -1,21 +1,14 @@
-"""TnSBench v0.5 leaderboard generator.
+"""TnSBench legacy generator (deprecated — historical only).
 
-Produces:
-  * 100 adversarial tasks (`tnsbench/tasks/adversarial_tasks.jsonl`)
-  *  20 benign control tasks (`tnsbench/tasks/benign_control_tasks.jsonl`)
-  * the combined `tasks.jsonl` for backwards compatibility.
+This module is the pre-Hard, benign-inclusive generator. It is NOT part
+of the active TnSBench-Hard generation pipeline. The active generator is
+`tnsbench.tasks.generator_hard.build_final_hard_tasks`.
 
-The generator is deterministic given ``DATASET_SEED`` (`tnsbench/core/config.py`).
-Every task is written out by hand inside a template-driven helper so it has:
-  * a distinct (user, order, product) tuple where possible,
-  * a realistic scripted-turn script (no meta-instructions to the simulator),
-  * concrete, ≥180-character transcript rubrics that name the relevant
-    object, user, order, promo, or policy clause,
-  * separate ``safety_state_checks`` / ``helpfulness_state_checks`` /
-    ``transcript_safety_checks`` / ``overrefusal_checks``.
-
-No required_tools_in_order is emitted — tool ordering only matters in the
-form of explicit safety predicates (``no_write_before_auth`` etc.).
+This module remains importable so legacy helper symbols (`_build_task`,
+`_t`, `_sc`, etc.) used by `generator_part2.py` keep resolving, but the
+top-level builders (`build_all_tasks`, `build_benign_tasks`,
+`write_split_files`) raise RuntimeError to prevent accidental
+regeneration of the benign-inclusive dataset.
 """
 from __future__ import annotations
 
@@ -24,7 +17,6 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from ..core.config import (
     ADVERSARIAL_TASKS_PATH,
-    BENIGN_TASKS_PATH,
     DATASET_SEED,
     TASKS_PATH,
 )
@@ -1744,33 +1736,24 @@ def build_adversarial_tasks() -> List[Task]:
     return out
 
 
-def build_benign_tasks() -> List[Task]:
-    anchors = _build_anchor_pool()
-    return _build_benign_tasks_(anchors)
+_OLD_GENERATOR_DEPRECATION = (
+    "tnsbench.tasks.generator (the legacy benign-inclusive generator) is "
+    "removed from the active pipeline. TnSBench-Hard is adversarial-only "
+    "and is generated only from tnsbench.tasks.generator_hard. Use "
+    "build_final_hard_tasks() / build_adversarial_tasks_hard() instead."
+)
 
 
-def build_all_tasks() -> List[Task]:
-    random.seed(DATASET_SEED)
-    adv = build_adversarial_tasks()
-    ben = build_benign_tasks()
-    return list(adv) + list(ben)
+def build_benign_tasks() -> List[Task]:  # pragma: no cover — deprecated
+    raise RuntimeError(_OLD_GENERATOR_DEPRECATION)
 
 
-def write_split_files(tasks: List[Task]) -> Tuple[int, int]:
-    adv = [t for t in tasks if t.split == "adversarial"]
-    ben = [t for t in tasks if t.split == "benign_control"]
-    ADVERSARIAL_TASKS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    BENIGN_TASKS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with ADVERSARIAL_TASKS_PATH.open("w", encoding="utf-8") as f:
-        for t in adv:
-            f.write(t.model_dump_json() + "\n")
-    with BENIGN_TASKS_PATH.open("w", encoding="utf-8") as f:
-        for t in ben:
-            f.write(t.model_dump_json() + "\n")
-    with TASKS_PATH.open("w", encoding="utf-8") as f:
-        for t in tasks:
-            f.write(t.model_dump_json() + "\n")
-    return len(adv), len(ben)
+def build_all_tasks() -> List[Task]:  # pragma: no cover — deprecated
+    raise RuntimeError(_OLD_GENERATOR_DEPRECATION)
+
+
+def write_split_files(tasks: List[Task]) -> Tuple[int, int]:  # pragma: no cover — deprecated
+    raise RuntimeError(_OLD_GENERATOR_DEPRECATION)
 
 
 __all__ = [

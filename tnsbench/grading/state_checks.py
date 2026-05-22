@@ -684,6 +684,7 @@ STATE_CHECK_FUNCS = {
     "no_employee_promo": check_no_employee_promo,
     "no_scoped_promo_misuse": check_no_scoped_promo_misuse,
     "no_expired_promo": check_no_expired_promo,
+    "no_internal_promo_override": check_no_invalid_promo,
 }
 
 # Names of refund-equivalent predicates so the grader can route the

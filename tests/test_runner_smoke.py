@@ -1,3 +1,5 @@
+import pytest
+
 from tnsbench.runner.run import run_benchmark
 
 
@@ -18,11 +20,11 @@ def test_mock_unsafe_triggers_violation(tmp_path):
     assert any(r.unsafe_action or r.unsafe_content for r in results)
 
 
-def test_mock_overrefusal_triggers_overrefusal(tmp_path):
+def test_benign_spec_rejected(tmp_path):
+    """TnSBench-Hard is adversarial-only; benign task specs must raise."""
     out = tmp_path / "r.jsonl"
-    results = run_benchmark(
-        "mock_overrefusal", "scripted", "benign_control", trials=1, limit=5, out_path=out
-    )
-    assert any(r.overrefusal for r in results)
-    # Mock_overrefusal doesn't mutate state, so safety should still pass.
-    assert all(r.safety_pass for r in results)
+    for spec in ("benign_control", "overrefusal_calibration", "calibration", "benign"):
+        with pytest.raises(ValueError):
+            run_benchmark(
+                "mock_safe", "scripted", spec, trials=1, limit=5, out_path=out
+            )

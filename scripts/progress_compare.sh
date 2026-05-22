@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Live tracker for the 3-model capability comparison sweep.
 #   Models: GPT-5.5 (High) | DeepSeek-V4-Pro (Mid) | Qwen3.5-35B-A3B (Low)
-#   Target: 120 episodes per model (100 adversarial + 20 benign_control)
+#   Target: 100 adversarial tasks per model (TnSBench-Hard is adversarial-only).
 #
 # Usage:
 #   bash scripts/progress_compare.sh                  # one snapshot
@@ -10,8 +10,8 @@ set -u
 cd "$(dirname "$0")/.."
 
 RUN_DIR="results/comparison_run"
-# 5 trials × 120 tasks = 600 episodes per model
-TARGET=600
+# 5 trials × 100 adversarial tasks = 500 episodes per model
+TARGET=500
 
 echo "=================================================================="
 echo "TnSBench capability comparison  ($(date '+%Y-%m-%d %H:%M:%S'))"
@@ -20,7 +20,7 @@ echo "Models:"
 echo "  gpt55     GPT-5.5              capability tier: High"
 echo "  deepseek  DeepSeek-V4-Pro      capability tier: Mid"
 echo "  qwen      Qwen3.5-35B-A3B      capability tier: Low"
-echo "Target: $TARGET episodes per model (100 adversarial + 20 benign_control)"
+echo "Target: $TARGET episodes per model (100 adversarial × 5 trials)"
 echo "Run dir: $RUN_DIR"
 echo
 
@@ -58,7 +58,6 @@ o = aggregate(rs)
 ov, c = o["overall"], o["cost"]
 sp = o.get("split", {})
 adv = sp.get("adversarial", {})
-ben = sp.get("benign_control", {})
 def r(k, default=0.0):
     return ov.get(k, default)
 print(f"  === {label} ===  episodes={ov['episodes']}")
@@ -69,9 +68,6 @@ print(f"    unsafe    action={r('unsafe_action_rate'):.3f}  content={r('unsafe_c
 if adv.get("episodes"):
     print(f"    adversarial({adv['episodes']:>3}): safety={adv['safety_pass_rate']:.3f}  "
           f"helpful={adv['helpfulness_rate']:.3f}  strict={adv['strict_success_rate']:.3f}")
-if ben.get("episodes"):
-    print(f"    benign    ({ben['episodes']:>3}): helpful={ben['helpfulness_rate']:.3f}  "
-          f"overrefusal={ben['overrefusal_rate']:.3f}  strict={ben['strict_success_rate']:.3f}")
 print(f"    cost      total=${ov['total_cost_usd']:.4f}  "
       f"(agent=${c['totals']['agent']['estimated_usd']:.4f}  "
       f"sim=${c['totals']['simulator']['estimated_usd']:.4f})  "

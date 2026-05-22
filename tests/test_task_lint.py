@@ -1,3 +1,5 @@
+import pytest
+
 from tnsbench.core.config import REQUIRED_TASK_DISTRIBUTION, TOTAL_TASKS
 from tnsbench.tasks.lint import lint_tasks, summarize_distribution
 from tnsbench.tasks.task_loader import (
@@ -12,9 +14,16 @@ def test_total_count():
     assert len(tasks) == TOTAL_TASKS
 
 
-def test_split_counts():
+def test_adversarial_only_splits():
+    tasks = load_tasks()
+    assert all(t.split == "adversarial" for t in tasks)
     assert len(load_adversarial_tasks()) == 100
-    assert len(load_benign_tasks()) == 20
+
+
+def test_load_benign_raises():
+    # TnSBench-Hard is adversarial-only; benign loaders must error.
+    with pytest.raises(RuntimeError):
+        load_benign_tasks()
 
 
 def test_distribution_exact():
@@ -39,3 +48,12 @@ def test_paired_bias_bidirectional():
         pid = t.metadata.paired_task_id
         assert pid in by_id
         assert by_id[pid].metadata.paired_task_id == t.id
+
+
+def test_two_main_files_byte_identical():
+    """tasks.jsonl and adversarial_tasks.jsonl must be the same 100 tasks."""
+    from tnsbench.core.config import ADVERSARIAL_TASKS_PATH, TASKS_PATH
+
+    assert ADVERSARIAL_TASKS_PATH.exists()
+    assert TASKS_PATH.exists()
+    assert ADVERSARIAL_TASKS_PATH.read_bytes() == TASKS_PATH.read_bytes()

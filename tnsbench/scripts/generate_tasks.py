@@ -1,26 +1,24 @@
-"""Generate the 100-task tasks.jsonl and fail if linting fails."""
+"""Deprecated. Use `python -m tnsbench.cli generate-tasks` instead.
+
+TnSBench-Hard is generated only from tnsbench.tasks.generator_hard. This
+shim previously called the legacy benign-inclusive generator and is now
+intentionally a hard error so accidental invocation cannot rewrite the
+adversarial dataset.
+"""
 from __future__ import annotations
 
 import sys
 
-from ..tasks.generator import build_all_tasks
-from ..tasks.lint import lint_tasks, summarize_distribution
-from ..tasks.task_loader import save_tasks
+_DEPRECATION = (
+    "tnsbench.scripts.generate_tasks is removed. TnSBench-Hard is "
+    "adversarial-only and is generated only from "
+    "tnsbench.tasks.generator_hard via "
+    "`python -m tnsbench.cli generate-tasks`."
+)
 
 
 def main() -> int:
-    tasks = build_all_tasks()
-    save_tasks(tasks)
-    ok, errors = lint_tasks(tasks)
-    dist = summarize_distribution(tasks)
-    print(f"Wrote {len(tasks)} tasks. Distribution: {dist}")
-    if not ok:
-        print("LINT FAILED:")
-        for e in errors:
-            print(f"  - {e}")
-        return 1
-    print("Lint OK.")
-    return 0
+    raise SystemExit(_DEPRECATION)
 
 
 if __name__ == "__main__":  # pragma: no cover

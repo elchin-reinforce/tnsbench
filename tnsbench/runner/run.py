@@ -18,17 +18,52 @@ from ..simulators.cascading import CascadingSimulator
 from ..simulators.llm_simulator import HybridSimulator, LLMSimulator
 from ..simulators.scripted import ScriptedSimulator
 from ..tasks.schema import Task
-from ..tasks.task_loader import load_tasks, load_benign_tasks
+from ..tasks.task_loader import load_tasks
 from .episode import run_episode
 from .result import EpisodeResult
 
 LOG = get_logger("tnsbench.runner")
 
 
+# Named-agent presets for live LLMs. The benchmark exposes a few well-
+# known capability tiers as agent names so the CLI doesn't need a wall of
+# provider/model/effort flags every time. The exact provider model
+# string for `gpt55_highcap` is configurable via the
+# `TNSBENCH_GPT55_HIGHCAP_MODEL` env var — the placeholder below
+# (`gpt-5-high`) is intentionally a stand-in until the real model id is
+# published by the provider.
+import os as _os
+
+AGENT_PRESETS: dict = {
+    "gpt55_highcap": {
+        "provider": "openai",
+        "model": _os.environ.get("TNSBENCH_GPT55_HIGHCAP_MODEL", "gpt-5-high"),
+        "reasoning_effort": "high",
+    },
+    "gpt55_medcap": {
+        "provider": "openai",
+        "model": _os.environ.get("TNSBENCH_GPT55_MEDCAP_MODEL", "gpt-5"),
+        "reasoning_effort": "medium",
+    },
+    "gpt55_lowcap": {
+        "provider": "openai",
+        "model": _os.environ.get("TNSBENCH_GPT55_LOWCAP_MODEL", "gpt-5"),
+        "reasoning_effort": "low",
+    },
+}
+
+
 def build_agent(name: str, *, provider: str = "mock", model: str = "mock-model",
                 reasoning_effort: Optional[str] = None) -> BaseAgent:
     if name in AGENT_REGISTRY:
         return AGENT_REGISTRY[name]()
+    if name in AGENT_PRESETS:
+        preset = AGENT_PRESETS[name]
+        return LLMAgent(ProviderConfig(
+            provider=preset["provider"],
+            model=preset["model"],
+            reasoning_effort=preset.get("reasoning_effort"),
+        ))
     if name == "llm_agent":
         return LLMAgent(ProviderConfig(provider=provider, model=model,
                                         reasoning_effort=reasoning_effort))
@@ -61,14 +96,20 @@ def build_simulator(
     raise ValueError(f"Unknown simulator: {name}")
 
 
+_BENIGN_REMOVAL_MSG = (
+    "Benign/control tasks have been removed from TnSBench-Hard. "
+    "The benchmark is adversarial-only. Valid task modes are "
+    "'adversarial' and 'all' (both load the same 100 adversarial tasks)."
+)
+
+
 def filter_tasks(tasks: List[Task], spec: str, limit: Optional[int] = None) -> List[Task]:
-    # v0.7: `all` and `adversarial` are leaderboard slices — adversarial only,
-    # benign control set is NEVER mixed in. To run the over-refusal calibration
-    # set, use the explicit `overrefusal_calibration` (or `calibration`) spec.
+    # TnSBench-Hard is adversarial-only. `all` and `adversarial` are
+    # aliases. Any benign-mode spec raises a hard error.
+    if spec in ("overrefusal_calibration", "calibration", "benign", "benign_control"):
+        raise ValueError(_BENIGN_REMOVAL_MSG)
     if not spec or spec in ("all", "adversarial"):
         out = [t for t in tasks if t.split == "adversarial"]
-    elif spec in ("overrefusal_calibration", "calibration", "benign", "benign_control"):
-        out = [t for t in tasks if t.split == "benign_control"]
     elif spec.startswith("category:"):
         # Accept comma-separated categories: "category:fraud,account_takeover,mixed".
         cats = {c.strip() for c in spec.split(":", 1)[1].split(",") if c.strip()}
@@ -108,14 +149,11 @@ def run_benchmark(
     max_turns_override: Optional[int] = None,
     stop_on_violation: bool = False,
 ) -> List[EpisodeResult]:
-    # v0.7: the main leaderboard (--tasks all / --tasks adversarial) is
-    # *adversarial only*. Benign controls are reachable only via the
-    # explicit `overrefusal_calibration` / `calibration` slice.
+    # TnSBench-Hard is adversarial-only. Reject any benign-mode spec.
     if task_spec in ("overrefusal_calibration", "calibration",
                      "benign", "benign_control"):
-        all_tasks = load_benign_tasks()
-    else:
-        all_tasks = load_tasks()
+        raise ValueError(_BENIGN_REMOVAL_MSG)
+    all_tasks = load_tasks()
     tasks = filter_tasks(all_tasks, task_spec, limit)
     if not tasks:
         LOG.warning("No tasks matched spec '%s'", task_spec)

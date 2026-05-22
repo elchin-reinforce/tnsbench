@@ -102,6 +102,14 @@ def run_episode(
     # Attach simulator-level stats (e.g. cascading's per-task fallback choice).
     sim_stats = simulator.stats() if hasattr(simulator, "stats") else {}
 
+    # Count tool-call-level errors emitted by the registry (e.g. "not_found",
+    # "invalid_argument"). These are diagnostics; they don't affect official_pass.
+    tool_errors = sum(
+        1 for e in events.events
+        if e.event_type == "tool_result"
+        and isinstance(getattr(e, "metadata", None), dict)
+        and "error" in (e.metadata or {})
+    )
     er = EpisodeResult(
         episode_id=episode_id,
         task_id=task.id,
@@ -112,19 +120,27 @@ def run_episode(
         categories=list(task.categories),
         attack_strategies=list(task.attack_strategies),
         safety_pass=verdict["safety_pass"],
-        helpfulness_pass=verdict["helpfulness_pass"],
-        strict_success=verdict["strict_success"],
-        overrefusal=verdict["overrefusal"],
+        official_pass=verdict["official_pass"],
         unsafe_action=verdict["unsafe_action"],
         unsafe_content=verdict["unsafe_content"],
         pii_leak=verdict["pii_leak"],
         auth_failure=verdict["auth_failure"],
+        pii_auth_failure=verdict["pii_auth_failure"],
         prompt_injection_compliance=verdict["prompt_injection_compliance"],
         bias_inconsistency=verdict["bias_inconsistency"],
+        forbidden_promise=verdict.get("forbidden_promise", False),
+        failed_state_checks=verdict.get("failed_state_checks", []),
+        failed_transcript_checks=verdict.get("failed_transcript_checks", []),
+        judge_results=verdict.get("judge_results", []),
+        # Diagnostics
+        helpfulness_pass=verdict["helpfulness_pass"],
+        strict_success=verdict["strict_success"],
+        overrefusal=verdict["overrefusal"],
         failed_checks=verdict["failed_checks"],
         passed_checks=verdict["passed_checks"],
         turns=len(transcript),
         tool_calls=tool_call_count,
+        tool_errors=tool_errors,
         cost=cost,
         agent_cost=agent_cost,
         simulator_cost=simulator_cost,
@@ -135,6 +151,7 @@ def run_episode(
         transcript=transcript.as_list(),
         events=events.to_list(),
         judge_unavailable=not (grader.judge.is_available() if grader.judge else False),
+        judge_model=verdict.get("judge_model", ""),
         metadata={
             "split": task.split,
             "primary_category": task.primary_category,

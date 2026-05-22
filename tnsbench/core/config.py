@@ -9,7 +9,6 @@ POLICY_PATH = ROOT / "policy" / "retail_policy.md"
 CLAUSES_PATH = ROOT / "policy" / "clauses.json"
 TASKS_PATH = ROOT / "tasks" / "tasks.jsonl"
 ADVERSARIAL_TASKS_PATH = ROOT / "tasks" / "adversarial_tasks.jsonl"
-BENIGN_TASKS_PATH = ROOT / "tasks" / "benign_control_tasks.jsonl"
 RESULTS_DIR = Path(os.environ.get("TNSBENCH_RESULTS_DIR", "results")).resolve()
 
 BENCHMARK_DATE = "2026-05-18"
@@ -24,9 +23,10 @@ PROMO_COUNT = 20
 CASE_COUNT = 20
 
 # ---------------------------------------------------------------------------
-# TnSBench-Hard distribution (v0.6). 100 adversarial tasks. No benign in main.
-# Benign controls remain on disk for over-refusal calibration but are NOT
-# counted in the leaderboard.
+# TnSBench-Hard distribution (final). 100 adversarial tasks. Adversarial-
+# only — benign-control / over-refusal-calibration tasks were removed from
+# the benchmark entirely; the project does not generate, load, or report
+# them anywhere.
 # ---------------------------------------------------------------------------
 ADVERSARIAL_DISTRIBUTION = {
     "fraud":            12,
@@ -38,15 +38,10 @@ ADVERSARIAL_DISTRIBUTION = {
     "jailbreak":        10,
     "bias":             20,   # 10 paired counterfactual pairs (v0.7)
 }
-BENIGN_DISTRIBUTION = {"benign_control": 20}
 
-# Main leaderboard is adversarial-only. The benign file remains generated
-# alongside it but is *not* part of REQUIRED_TASK_DISTRIBUTION since the
-# scoring layer ignores it.
 REQUIRED_TASK_DISTRIBUTION = dict(ADVERSARIAL_DISTRIBUTION)
 
 TOTAL_ADVERSARIAL = sum(ADVERSARIAL_DISTRIBUTION.values())  # 100
-TOTAL_BENIGN = sum(BENIGN_DISTRIBUTION.values())            # 20
 TOTAL_TASKS = TOTAL_ADVERSARIAL                              # main file = 100
 
 # Hard-set turn-distribution buckets and hardness floors (lint-enforced).

@@ -1,11 +1,16 @@
-"""Pydantic schema for TnSBench v0 tasks (leaderboard edition).
+"""Pydantic schema for TnSBench-Hard tasks.
 
-The schema is split-aware (adversarial / benign_control), enforces
-multi-label categories, separates safety vs. helpfulness state checks, and
-keeps the transcript-safety checks separate from helpfulness signals.
-Legacy field names (``category``, ``attack_strategy``, ``grading``) are still
-accepted on load via aliases / validators so old-format jsonl files can be
-migrated by simply re-saving.
+TnSBench-Hard is adversarial-only — every task carries split="adversarial".
+The schema enforces multi-label categories, separates safety vs.
+helpfulness state checks, and keeps the transcript-safety checks separate
+from helpfulness signals.
+
+Legacy field names (``category``, ``attack_strategy``, ``grading``) are
+still accepted on load via aliases / validators so old-format jsonl files
+can be migrated by simply re-saving. The legacy split value
+"benign_control" is accepted by Pydantic at the class level for
+forward/backward read compatibility, but the loader rejects any benign
+task at runtime so the benchmark stays adversarial-only.
 """
 from __future__ import annotations
 
@@ -63,6 +68,7 @@ VALID_STATE_TYPES = {
     "no_employee_promo",          # apply_promo_code where promo.employee_only is True
     "no_scoped_promo_misuse",     # apply_promo_code outside the eligible_categories of the code
     "no_expired_promo",           # apply_promo_code where promo.expires_at < today
+    "no_internal_promo_override", # alias for no_invalid_promo; signals "internal retention override" framing
     # helpfulness state types
     "fraud_flag_created",
     "return_request_created",
@@ -168,13 +174,22 @@ class Metadata(TnsBaseModel):
     protected_attribute_varied: Optional[str] = None
     source_template: str = ""
     notes: str = ""
-    # v0.8 — explicit safety-hardness annotations. These are required on
-    # every adversarial task so reviewers can see exactly which T&S
-    # surface(s) the task probes and what concrete unsafe behavior would
-    # constitute a failure.
+    # v0.8 — explicit safety-hardness annotations. Required on every
+    # adversarial task so reviewers can see exactly which T&S surface(s)
+    # the task probes and what concrete unsafe behavior would constitute
+    # a failure.
     expected_safety_failure_modes: List[str] = Field(default_factory=list)
     safety_hardness_rationale: str = ""
     safety_failure_surface: List[str] = Field(default_factory=list)
+    # v1.0 final-version — discrete boolean / int fields that mirror the
+    # capability dimensions the linter checks. Setting them on every
+    # task lets the audit command introspect coverage without re-deriving
+    # the flags from the v0.7 hardness_flags strings.
+    requires_multiple_tools: bool = False
+    requires_multi_object_reasoning: bool = False
+    contains_semantic_bypass: bool = False
+    contains_partial_auth: bool = False
+    contains_crescendo: bool = False
 
 
 class ScriptedTurn(TnsBaseModel):
@@ -217,7 +232,6 @@ _POSITIVE_ACTION_STATE_TYPES = {
 PRIMARY_CATEGORIES = {
     "fraud", "account_takeover", "pii", "promo_abuse",
     "prompt_injection", "jailbreak", "bias", "mixed", "edge_case",
-    "benign_control",
 }
 
 

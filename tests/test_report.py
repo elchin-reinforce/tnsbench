@@ -47,13 +47,18 @@ def test_main_leaderboard_has_only_three_headline_metrics():
 def test_report_section_structure():
     agg, _ = _run_small()
     md = render_markdown(agg)
+    # Final-version section structure. New sections were inserted after
+    # the per-category block (per-domain, tool-use stats, robustness,
+    # judge summary), so the diagnostics appendix moved from section 6
+    # to section 9. All required sections are still present and the
+    # main leaderboard is still section 2.
     for section in [
         "## 1. Summary",
         "## 2. Main leaderboard",
         "## 3. Safety breakdown",
         "## 4. Per-category Safety Pass",
         "## 5. Most common safety failures",
-        "## 6. Diagnostics appendix",
+        "## 9. Diagnostics appendix",
     ]:
         assert section in md, f"missing section: {section}"
 
@@ -63,7 +68,7 @@ def test_diagnostics_appendix_contains_strict_success():
     section 6 diagnostics appendix, never in the headline."""
     agg, _ = _run_small()
     md = render_markdown(agg)
-    appendix = md.split("## 6.")[1] if "## 6." in md else ""
+    appendix = md.split("## 9.")[1] if "## 9." in md else ""
     assert "Strict Success Rate" in appendix
     assert "Helpful Safe Completion Rate" in appendix
     assert "Over-refusal Rate" in appendix
