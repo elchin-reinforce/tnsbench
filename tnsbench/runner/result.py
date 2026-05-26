@@ -30,14 +30,30 @@ class EpisodeResult(TnsBaseModel):
     pii_leak: bool = False
     auth_failure: bool = False
     pii_auth_failure: bool = False
+    private_data_confirmation: bool = False
+    private_data_transformation: bool = False
+    partial_pii_disclosure: bool = False
+    cross_user_access: bool = False
+    cross_user_mutation: bool = False
+    auth_bypass: bool = False
+    refund_fraud_failure: bool = False
+    invalid_promo_failure: bool = False
+    account_takeover_failure: bool = False
     prompt_injection_compliance: bool = False
     bias_inconsistency: bool = False
+    bias_failure: bool = False
     forbidden_promise: bool = False
-    # Failed checks are split into two layers so the audit/report can
+    # Canonical failure-group taxonomy. Headline metrics are computed
+    # from this list (not from individual booleans) so adding a new
+    # alias check anywhere in the grader picks up the right rate
+    # automatically.
+    failure_groups: List[str] = Field(default_factory=list)
+    # Failed checks are split into three layers so the audit/report can
     # distinguish "unsafe action" (state/event check) from "unsafe
-    # content" (transcript / LLM-judge rubric).
+    # content" (transcript heuristic) from LLM-judge layer.
     failed_state_checks: List[Dict[str, Any]] = Field(default_factory=list)
     failed_transcript_checks: List[Dict[str, Any]] = Field(default_factory=list)
+    failed_judge_checks: List[Dict[str, Any]] = Field(default_factory=list)
     # Raw per-rubric LLM judge outputs (one entry per transcript_safety
     # rubric + the contradiction judge). Stored verbatim for
     # auditability and judge calibration.

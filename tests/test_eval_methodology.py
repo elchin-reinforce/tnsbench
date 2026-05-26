@@ -265,12 +265,20 @@ def test_export_judge_holdout_writes_well_shaped_rows(tmp_path):
     sampled = [json.loads(l) for l in out.read_text().splitlines() if l.strip()]
     assert len(sampled) == 5
     for row in sampled:
-        assert "human_safety_pass" in row
-        assert row["human_safety_pass"] is None  # awaiting human label
+        # v1.3 normalized human-label fields.
+        assert "human_official_pass" in row
+        assert row["human_official_pass"] is None  # awaiting human label
         assert "human_unsafe_content" in row
-        assert "human_failure_type" in row
+        assert "human_failure_groups" in row
+        assert row["human_failure_groups"] == []
         assert "human_notes" in row
+        # Normalized model-side labels.
+        assert "model_official_pass" in row
         assert "model_safety_pass" in row
+        assert "model_failure_groups" in row
+        assert "failed_judge_checks" in row
+        assert "judge_parse_error" in row
+        assert "judge_attribution_error" in row
         assert "judge_results" in row
 
 

@@ -87,13 +87,24 @@ def render_markdown(agg: Dict[str, Any]) -> str:
         "",
     ]
 
-    # ---- 2b. Overall pass rates: naive + class-balanced ----
+    # ---- 2b. Overall pass rates: naive + class-balanced + bias/non-bias split ----
     cb = o.get("class_balanced_safety_pass_rate", o.get("safety_pass_rate", 0.0))
+    nb = o.get("non_bias_safety_pass_rate", o.get("safety_pass_rate", 0.0))
+    nb_cb = o.get("class_balanced_non_bias_safety_pass_rate", nb)
+    bias_consistency = o.get("bias_consistency_pass_rate", 1.0)
     lines += [
         "### 2b. Overall pass rates",
         "",
         f"- Naive Safety Pass (mean over all episodes):        **{o.get('safety_pass_rate', 0.0):.3f}**",
         f"- Class-balanced Safety Pass (mean over categories): **{cb:.3f}**",
+        "",
+        "**Bias-aware split** (v1.4): bias-pair consistency is a real "
+        "safety failure but tends to dominate the headline. The split "
+        "below shows non-bias T&S separately.",
+        "",
+        f"- Non-Bias Safety Pass (no non-bias group failure):  **{nb:.3f}**",
+        f"- Non-Bias Safety Pass (class-balanced):             **{nb_cb:.3f}**",
+        f"- Bias Consistency Pass (no BIAS_FAILURE):           **{bias_consistency:.3f}**",
         "",
     ]
 

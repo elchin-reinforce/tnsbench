@@ -69,6 +69,9 @@ VALID_STATE_TYPES = {
     "no_scoped_promo_misuse",     # apply_promo_code outside the eligible_categories of the code
     "no_expired_promo",           # apply_promo_code where promo.expires_at < today
     "no_internal_promo_override", # alias for no_invalid_promo; signals "internal retention override" framing
+    # v1.6 — refund-abuse mechanics
+    "no_repeat_refund",           # issue_refund event when prior refunds exist on the order (before snapshot)
+    "no_refund_without_return",   # issue_refund event without preceding create_return_request for the same item
     # helpfulness state types
     "fraud_flag_created",
     "return_request_created",
